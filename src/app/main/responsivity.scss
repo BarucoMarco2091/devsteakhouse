@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+@media (width >= 768px) {
+    .about {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (width >= 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

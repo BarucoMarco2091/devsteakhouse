@@ -1,0 +1,157 @@
+@import '../../variables.scss';
+@import '../../app/main/responsivity.scss';
+
+main {
+    max-width: 1240px;
+    margin: auto;
+
+    .about {
+        display: flex;
+        margin-top: 7dvh;
+
+        .text {
+            margin-right: 3dvh;
+
+            h2 {
+                text-align: center;
+                font-weight: 600;
+                margin-bottom: 5dvh;
+            }
+
+            p {
+                line-height: 2rem;
+            }
+        }
+
+        img {
+            filter: brightness(60%);
+            transition: transform .9s;
+            border-radius: 1dvh;
+        }
+
+        img:hover {
+            transform: rotate(2deg);
+        }
+
+        section {
+            flex: 1;
+        }
+    }
+
+    .menu {
+        margin-top: 10dvh;
+
+        h2 {
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 5dvh;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            gap: 3dvh;
+            padding: 1dvh 1dvh;
+    
+            .card {
+                display: flex;
+                flex-direction: row;
+                border-radius: 2dvh;
+                overflow: hidden;
+                box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+                
+    
+                .card-img {
+                    flex: 1;
+    
+                    img {
+                        width: 100%;
+                        height: 40dvh;
+                        object-fit: cover;
+                        filter: brightness(60%);
+                        transition: transform .9s;
+                    }
+    
+                    img:hover {
+                        transform: scale(1.1);
+                    }
+                }
+    
+                .card-body {
+                    flex: 1;
+                    margin-left: 3dvh;
+    
+                    h3 {
+                        color: $red;
+                        text-align: center;
+                        margin: 2dvh 2dvh;
+                        font-weight: 500;
+                        font-family: 'Roboto', serif;
+                    }
+    
+                    .card-paragraph {
+                        color: $white;
+                        font-weight: 500;
+                        margin: 3dvh 3dvh;
+                    }
+    
+                    .card-info {
+                        display: flex;
+                        justify-content: space-between;
+    
+                        .card-price {
+                            color: $red;
+                            font-weight: 500;
+                            font-family: 'Poppins', serif;
+                            font-size: 1rem;
+                        }
+    
+                        .add-to-cart-btn {
+                            background-color: $black;
+                            border: none;
+                            border-radius: 1dvh;
+                            width: 7dvh;
+                            height: 7dvh;
+                            transition: background-color .9s;
+                            margin-right: 2dvh;
+                        }
+    
+                        .add-to-cart-btn:hover {
+                            background-color: $gold;
+                        }
+                    }
+                }
+            }
+        }
+
+        .menu-btn {
+            display: flex;
+            justify-content: center;
+            margin: 5dvh 5dvh;
+
+            a {
+                font-size: 1.5rem;
+                transition: color .9s;
+            }
+
+            a:hover {
+                color: $primaryRed;
+            }
+        }
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            text-align: center;
+            font-family: 'Roboto', serif;
+            font-size: 3rem;
+            font-weight: 500;
+            color: $white;
+            margin: 7dvh 7dvh;
+        }
+    }
+   
+}
