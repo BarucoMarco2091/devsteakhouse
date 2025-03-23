@@ -40,9 +40,10 @@ export class CardapioComponent {
     { name: 'Salsicha', description: 'Salsicha grelhada no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 85.00, image: '/salsicha.jpg' },
     { name: 'Acém', description: 'Acém grelhado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 125.00, image: '/acem.jpg' },
     { name: 'Paleta de Cordeiro', description: 'Paleta de Cordeiro assada no ponto ideal. Acompanha farofa, vinagrete e molho de hortelã.', price: 200.00, image: '/paletacordeiro.jpg' },
-    { name: 'Feijoada', description: 'feijão preto,  linguiça, costela, bacon, pé, orelha e carne seca.', price: 140.00, image: '/feijoada.jpg' },
+    { name: 'Feijoada', description: 'Feijão preto,  linguiça, costela, bacon, pé, orelha e carne seca.', price: 140.00, image: '/feijoada.jpg' },
     { name: 'Pastel', description: 'Massa fina e crocante acompanhado de molhos de pimenta, molho de alho ou vinagrete.', price: 145.00, image: '/pastel.jpg' },
     { name: 'Vinagrete', description: 'Nosso vinagrete é preparado com tomate, cebola, pimentão amarelo, vinagre, azeite e sal.', price: 60.00, image: '/vinagrete.jpg' },
+    { name: 'Maionese', description: 'Nossa maionese de batata é enriquecida com cenoura, ervilhas, milho e ovos.', price: 100.00, image: '/maionese.jpg' },
     { name: 'Frango Grelhado', description: 'Frango grelhado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 125.00, image: '/frango.jpg' },
     { name: 'Salmão', description: 'Salmão assado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 155.00, image: '/salmao.jpg' },
   ];
