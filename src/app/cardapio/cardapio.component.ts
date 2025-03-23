@@ -29,7 +29,7 @@ export class CardapioComponent {
     { name: 'Linguiça', description: 'Linguiça assada no ponto ideal. Acompanha farofa, vinagrete e molho de hortelã.', price: 100.00, image: '/linguiça.jpg' },
     { name: 'Filé Mignon', description: 'Filé Mignon grelhado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 120.00, image: '/filemignon.jpg' },
     { name: 'Rib', description: 'Rib assada no ponto ideal. Acompanha farofa, vinagrete e molho barbecue.', price: 100.00, image: '/rib.jpg' },
-    { name: 'Farofa', description: 'Ffarinha de mandioca, tostada em uma frigideira com manteiga, e temperada com cebola, alho, bacon, ovos cozidos, salsinha, cebolinha.', price: 90.00, image: '/farofa.jpg' },
+    { name: 'Farofa', description: 'Farinha de mandioca, tostada em uma frigideira com manteiga, e temperada com cebola, alho, bacon, ovos cozidos, salsinha, cebolinha.', price: 90.00, image: '/farofa.jpg' },
     { name: 'Contra Filé', description: 'Contra Filé grelhado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 120.00, image: '/contrafile.jpg' },
     { name: 'Arroz Carreteiro', description: 'Arroz cozido junto com carne seca, que é dessalgada e desfiada, temperado com cebola, alho, pimentão, tomate, cheiro-verde, bacon e linguiça.', price: 110.00, image: '/arrozcarreteiro.jpg' },
     { name: 'Mandioca Frita', description: 'Mandioca frita com uma cobertura irresistível de mix de queijos e bacon. O toque final fica por conta do molho Ranch.', price: 85.00, image: '/mandioca.jpg' },
@@ -42,7 +42,7 @@ export class CardapioComponent {
     { name: 'Paleta de Cordeiro', description: 'Paleta de Cordeiro assada no ponto ideal. Acompanha farofa, vinagrete e molho de hortelã.', price: 200.00, image: '/paletacordeiro.jpg' },
     { name: 'Feijoada', description: 'feijão preto,  linguiça, costela, bacon, pé, orelha e carne seca.', price: 140.00, image: '/feijoada.jpg' },
     { name: 'Pastel', description: 'Massa fina e crocante acompanhado de molhos de pimenta, molho de alho ou vinagrete.', price: 145.00, image: '/pastel.jpg' },
-    { name: 'Vinagrete', description: 'Nosso vinagrete é preparado com  com tomate, cebola, pimentão amarelo, vinagre, azeite e sal.', price: 60.00, image: '/vinagrete.jpg' },
+    { name: 'Vinagrete', description: 'Nosso vinagrete é preparado com tomate, cebola, pimentão amarelo, vinagre, azeite e sal.', price: 60.00, image: '/vinagrete.jpg' },
     { name: 'Frango Grelhado', description: 'Frango grelhado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 125.00, image: '/frango.jpg' },
     { name: 'Salmão', description: 'Salmão assado no ponto ideal. Acompanha farofa, vinagrete e molho da casa.', price: 155.00, image: '/salmao.jpg' },
   ];
