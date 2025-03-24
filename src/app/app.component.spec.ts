@@ -24,6 +24,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, devsteakhouse');
+    expect(compiled.querySelector('h1')?.textContent).toContain('A MELHOR CHURRASCARIA DO ABC PAULISTA');
   });
 });

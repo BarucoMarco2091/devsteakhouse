@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+@media (width >= 768px) {
+    nav {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        max-width: 1240px;
+        margin: auto;
+        padding-top: 5dvh;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    
+}

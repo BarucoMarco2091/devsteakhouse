@@ -3,13 +3,28 @@
 @media (width >= 768px) {
     .about {
         display: flex;
-        flex-direction: row;
+        flex-direction: row !important;
     }
 }
 
-@media (width >= 768px) {
+@media (width >= 1024px) {
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding: 1dvh 1dvh !important;
+
+        .card {
+            display: flex;
+            flex-direction: row !important;
+
+            .card-img {
+                img {
+                    width: 100%;
+                    height: 50dvh !important;
+                    object-fit: cover !important;
+                    padding-bottom: 0;
+                }
+            }
+        }
     }
 }

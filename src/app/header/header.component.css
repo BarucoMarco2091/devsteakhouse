@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@media (width >= 768px) {
+  nav {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 5dvh;
+  }
+  h1 {
+    text-align: center;
+  }
+}
 @keyframes scale {
   from {
     transform: translateY(0) scale(1);
@@ -16,13 +31,14 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: space-between;
-  max-width: 1240px;
-  margin: auto;
-  padding-top: 5dvh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1dvh 1dvh;
 }
 header nav .nav-icons {
   display: flex;
+  padding: 1dvh 1dvh;
 }
 header nav .nav-icons i {
   margin-right: 3dvh;
@@ -31,6 +47,9 @@ header nav .nav-icons i {
 header nav .nav-icons i:hover {
   color: #c22222;
   animation: scale 1s infinite alternate;
+}
+header nav .nav-logo {
+  padding: 1dvh 1dvh;
 }
 header nav .nav-logo i, header nav .nav-logo span {
   font-size: 2rem;
@@ -41,7 +60,7 @@ header nav .nav-btn {
 header nav .nav-btn button {
   background-color: transparent;
   border: 1px solid #FFFFFF;
-  width: 20dvh;
+  width: 25dvh;
   transition: border 0.9s;
 }
 header nav .nav-btn button:hover {
@@ -50,7 +69,9 @@ header nav .nav-btn button:hover {
 header div {
   position: relative;
   top: 25%;
+  padding: 1dvh 1dvh;
 }
 header div h1 {
   text-align: center;
+  padding: 1dvh 1dvh;
 }/*# sourceMappingURL=header.component.css.map */
